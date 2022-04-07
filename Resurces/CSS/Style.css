@@ -210,3 +210,70 @@ header {
     color: #fff;
 }
 
+
+/*------------------- Paragraph --------------- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*------------------- ICONS --------------- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+
+}
+
+
+/*------------------------------------------------------*/
+/* AMNIEBTS */
+/*------------------------------------------------------*/
+
+.section-ambients {
+    padding: 0;
+}
+
+
+.ambients-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.ambients-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.ambients-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.ambients-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.ambients-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
