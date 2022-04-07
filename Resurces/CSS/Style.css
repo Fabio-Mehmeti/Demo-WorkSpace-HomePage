@@ -401,3 +401,53 @@ header {
     color: #e67e22;
     
 }
+
+
+/*-------------------------------------------------------------*/
+/* FOOTER */
+/*-------------------------------------------------------------*/
+
+footer {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #dbdbdb;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+footer p {
+    color: #dbdbdb;
+    text-align: center;
+}
+
